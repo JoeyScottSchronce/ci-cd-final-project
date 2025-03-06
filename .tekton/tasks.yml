@@ -9,10 +9,10 @@ spec:
     - name: source
 
   steps:
-    - name: remove
+    - name: remove  
       image: alpine:3
       env:
-        - name: WORKSPACE_SOURCE_PATH
+      - name: WORKSPACE_SOURCE_PATH
         value: $(workspaces.source.path)
       workingDir: $(workspaces.source.path)
       securityContext:
