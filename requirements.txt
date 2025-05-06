@@ -1,8 +1,8 @@
 # Werkzeug keeps breaking Flask!
-Werkzeug==2.1.2
+Werkzeug==3.0.3
 
 # Runtime dependencies
-Flask==2.1.2
+Flask==2.2.5
 python-dotenv==0.20.0
 
 # Runtime tools
@@ -20,6 +20,6 @@ pinocchio==0.4.3
 coverage==6.3.2
 
 # Utilities
-httpie==3.2.1
+httpie==3.2.3
 setuptools>=78.1.1 # not directly required, pinned by Snyk to avoid a vulnerability
 zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
